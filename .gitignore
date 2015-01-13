@@ -1,0 +1,9 @@
+var a:integer;
+begin
+a:=Random(200);
+ if a mod 2=0 then
+  writeln('Выиграют HR')
+  else
+  writeln('Китайцы вздрючат HR');
+readln;
+end.
